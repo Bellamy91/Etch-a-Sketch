@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: grid;
+    width: 480px; /* Adjust the width as needed */
+    height: 480px; /* Set the height to match the width for square grid */
+}
+
+.square {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.square:hover {
+    background-color: #ccc; /* Change to any color you like */
+}
+
